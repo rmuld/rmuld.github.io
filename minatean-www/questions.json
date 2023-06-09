@@ -1,0 +1,276 @@
+{
+    "levels": [
+        {
+            "math": {
+                "questions": [
+                    {
+                        "question": "Siim oli vaheajal 7 päeva maal. Kodus veetis ta 4 päeva vähem. Mitu päeva oli Siim kodus?",
+                        "answers": ["3", "2", "4"]
+                    },
+                    {
+                        "question": "Linda kirjutas 6 lauset, Selma kirjutas 3 lauset rohkem. Mitu lauset kirjutas Selma?",
+                        "answers": ["9", "7", "8"]
+                    },
+                    {
+                        "question": "3 cm + 4 cm = ?",
+                        "answers": ["7 cm", "9 cm", "8 cm"]
+                    },
+                    {
+                        "question": "Mänd on 7 meetrit kõrge, kask on männist 2 meetrit madalam. Kui kõrge on kask?",
+                        "answers": ["5 m", "7 m", "6 m"]
+                    },
+                    {
+                        "question": "15 + … = 17",
+                        "answers": ["2", "3", "4"]
+                    },
+                    {
+                        "question": "Oled 8. korrusel ja soovid sõita 5 korrust ülespoole. Mitmendale korrusele sa sõidad?",
+                        "answers": ["13", "11", "16"]
+                    },
+                    {
+                        "question": "Kõige suurem känguruliik on hiidkänguru, kes püsti seistes võib olla pikem kui inimene. Sündides on aga kängurupojad imetillukesed. Kui pikad nad on? Arvuta. 20-5+4-3-6-8 = … cm",
+                        "answers": ["2 cm", "4 cm", "5 cm"]
+                    },
+                    {
+                        "question": "Sipelgas peab puu juurest männiokka oma pessa viima. Pesani on 1 meeter. Sipelgal on käidud 60 cm. Kui palju on sipelgal veel minna?",
+                        "answers": ["40 cm", "30 cm", "45 cm"]
+                    },
+                    {
+                        "question": "Siimu ema andis spordivarustuse ostude jaoks 50 eurot. Siim ostab tõukeratta 40 euro eest. Kui palju raha jääb Siimul alles pärast ostude tegemist?",
+                        "answers": ["10 eurot", "5 eurot", "15 eurot"]
+                    },
+                    {
+                        "question": "Ema tankis auto bensiinipaagi täis. Sinna mahub 50 liitrit bensiini. Suvilasse sõiduks kulus 10 liitrit bensiini. Kui palju bensiini oli paagis järel suvilasse jõudes?",
+                        "answers": ["40 liitrit", "20 liitrit", "30 liitrit"]
+                    }
+                ]
+            },
+            "language": {
+                "questions": [
+                    {
+                        "question" :  "Milline neist on liitsõna?",
+                        "answers": ["magustoit", "maasikas", "õun"]
+                    },
+                    {
+                        "question": "Milline neist ei ole liitsõna?",
+                        "answers": ["kirjanik", "ärimees", "jahimees" ]
+                    },
+                    {
+                        "question":  "Kui lauses küsitakse midagi, siis on lõpus …",
+                        "answers": ["küsimärk", "hüüumärk", "punkt"]
+                    },
+                    {
+                        "question": "Pane sõnadest kokku lause. Mida lapsed õhtul teevad? \"sõbrale lähen külla. Mina\"",
+                        "answers": ["Mina lähen sõbrale külla.", "lähen külla. Mina sõbrale", "Mina sõbrale külla. lähen"]
+                    },
+                    {
+                        "question": "Moodusta liitlause ja vali õige sidesõna. \"Mul on kõht tühi. Ma ei söönud hommikust.\"",
+                        "answers": [
+                            "Mul on kõht tühi, sest ma ei söönud hommikust.",
+                            "Mul on kõht tühi, või ma ei söönud hommikust.",
+                            "Mul on kõht tühi, ja ma ei söönud hommikust."
+                        ]
+                    },
+                    {
+                        "question": "Millises sõnas on sulghäälik?",
+                        "answers": ["tigu", "naer", "laul"]
+                    },
+                    {
+                        "question": "Mõista, mõista, mis see on? Liigub, kiigub, aga paigast ei saa?",
+                        "answers": ["puu", "nahkhiir", "raamat"]
+                    },
+                    {
+                        "question": "Loe sõnu. Mida on üks?",
+                        "answers": ["saba", "jalad", "sarved"]
+                    },
+                    {
+                        "question": "Millise lause lõppu sobib hüüumärk?",
+                        "answers": ["Palju õnne", "Minu nimi on Riin", "Kus sa elad"]
+                    },
+                    {
+                        "question": "Moodusta sõnadest lause. Vali õige vastusevariant. \"vaatavad konna. Lapsed\"",  
+                        "answers": ["Lapsed vaatavad konna.", "konna. Lapsed vaatavad", "vaatavad konna. Lapsed"]
+                    }
+                ]  
+            },
+            "nature": {
+                "questions": [
+                    {
+                        "question": "Milline kuu on sügiskuu?",
+                        "answers": ["oktoober", "veebruar", "mai"]
+                    },
+                    {
+                        "question": "Osa loomi puhkab talvel pikalt. Seepärast tuleb neil sügisel palju süüa, et naha alla rasva koguda. Milline loom magab talve maha?",
+                        "answers": ["karu", "jänes", "põder"]
+                    },
+                    {
+                        "question": "Miks linnud lõunamaale lendavad?",
+                        "answers": ["Neil pole siin toitu.", "Nad otsivad uusi seiklusi.", "Nad lähevad uusi sõpru otsima."]
+                    },
+                    {
+                        "question": "Mida võib matkal vaja minna?",
+                        "answers": ["taskulamp","telekapult","sussid"]
+                    },
+                    {
+                        "question": "Kes neist on lind?",
+                        "answers": ["pasknäär", "mutt", "lepatriinu"]
+                    },
+                    {
+                        "question": "Milline neist on vedel?",
+                        "answers": ["piim", "juust", "leib"]
+                    },
+                    {
+                        "question": "Milline neist on tahke?",
+                        "answers": ["küpsis", "mahl", "tee"]
+                    },
+                    {
+                        "question": "Kes neist sööb talvel hiiri?",
+                        "answers": ["rebane", "põder", "metssiga"]
+                    },
+                    {
+                        "question": "Mitmes kuu aastas see on? Oktoober",
+                        "answers": ["10", "7", "5"]
+                    },
+                    {
+                        "question": "Millist meelt sa kasutad toitu mäludes?",
+                        "answers": ["maitsmismeelt", "kuulmismeelt", "kompimismeelt"]
+                    }
+                ]
+            }  
+        },
+        {
+            "math": {
+                "questions": [
+                    {
+                        "question": "Kes on kõige pikem?",
+                        "answers": ["Rasmus 1m 34cm", "Liis 1m 27 cm", "Siim 1m 30 cm"]
+                    },
+                    {
+                        "question": "Arvuta. \"nelikümmend seitse = 50 - …\"",
+                        "answers": ["3", "4", "2"]
+                    },
+                    {
+                        "question": "Koosta võrdlus. 10 + 3 = 20 - …",
+                        "answers": ["7", "5", "8"]
+                    },
+                    {
+                        "question": "Millises kuus on kõige vähem päevi?",
+                        "answers": ["veebruar", "november", "mai"]
+                    },
+                    {
+                        "question": "Teisenda sekundid minutiteks ja sekunditeks. 100 sek = 60 sek + 40 sek = …",
+                        "answers": ["1 min 40 sek", "2 min 20 sek", "1 min 20 sek"]
+                    },
+                    {
+                        "question": "Kirjuta arv sadade, kümnete ja üheliste summana. 743",
+                        "answers": ["700 + 40 + 3", "700 + 30 + 4", "700 + 40 + 5"]
+                    },
+                    {
+                        "question": "Lõpeta lause õige mõõtühikuga. \"Linnadevahelist kaugust mõõdame …\"",
+                        "answers": ["kilomeetrites", "meetrites", "sentimeetritest"]
+                    },
+                    {
+                        "question": "Britta vanemad hakkasid vanaema köögis remonti tegema. Nad tühjendasid kappe ja leidsid kokku 45 teetassi. Ema sorteeris kõik tassid ja viis vanaema nõusolekul neist 23 taaskasutuskeskusesse. Mitu teetassi jäi vanaemal alles?",
+                        "answers": ["22", "13", "27"]
+                    },
+                    {
+                        "question": "Piimakombinaat saatis toidupangale kokku 59 kg piimatooteid. Juustu oli 31 kg ja kohupiima 15 kg, ülejäänu oli või. Mitu kilogrammi võid saatis kombinaat toidupangale?",
+                        "answers": ["13", "7", "15"]
+                    },
+                    {
+                        "question": "Ats sõi lõunaks 5 spl kartuliputru (1 spl = 20 g) ja 3 viinerit (1 viiner = 30g). Mitu grammi kaalus Atsi toit kokku?",
+                        "answers": ["190", "165", "180"]
+                    }
+                ]
+            },
+            "language":{
+                "questions":[
+                    {
+                        "question": "Nicolas õpetas Laurale mõne prantsuskeelse väljendi. Mida Nicolas ütleb? \"Bonjour, Laura! Mon nom est Nicolas!\"",
+                        "answers": ["Tere Laura! Minu nimi on Nicolas!", "Tere Laura! Minu isa nimi on Nicolas!", "Head aega, Laura! Minu nimi on Nicolas!"]
+                    },
+                    {
+                        "question": "Millises sõnas on täishäälikuühend?",
+                        "answers": ["koerad", "ümber", "porgand"]
+                    },
+                    {
+                        "question": "Milline sõna vastab küsimusele \"Mida teeb\"?",
+                        "answers": ["jookseb", "sportlane", "suur"]
+                    },
+                    {
+                        "question": "Milline neist on omadussõna?",
+                        "answers": ["kare", "kera", "kaun"]
+                    },
+                    {
+                        "question": "Vali õige sõna, mis sobib lause lõppu. \"Taevas on vihmane ja …\"",
+                        "answers": ["hall", "all", "pall"]
+                    },
+                    {
+                        "question": "Pärast põhikooli võib õppida …",
+                        "answers": ["gümnaasiumis", "garderoobis", "grillis"]
+                    },
+                    {
+                        "question": "Koolis õpetavad lapsi …",
+                        "answers": ["pedagoogid", "geoloogid", "zooloogid"]
+                    },
+                    {
+                        "question": "Milleta ei saa toitu närida?",
+                        "answers": ["hammasteta", "käteta", "jalgadeta"]
+                    },
+                    {
+                        "question": "Lapsed valmistuvad karnevaliks. Arva ära, milliseks loomaks Sandra end maskeerib. \"Mina teen palju nalja, ronin ja söön hea meelega banaani.\"",
+                        "answers": ["ahviks", "kaelkirjakuks", "koaalaks"]
+                    },
+                    {
+                        "question": "Milline sõnadest on valesti kirjutatud?",
+                        "answers": ["unt", "hall", "hea"]
+                    }
+                ]
+            },
+            "nature":{
+                "questions":[
+                    {
+                        "question": "Mingi ala kujutis pealtvaates",
+                        "answers": ["plaan", "leppemärk", "legend"]
+                    },
+                    {
+                        "question": "Osaliselt lagunenud taimede mass",
+                        "answers": ["turvas", "silo", "põhk"]
+                    },
+                    {
+                        "question": "Loom, kellel on väga võimsad sarved",
+                        "answers": ["põder", "hobune", "lehm"]
+                    },
+                    {
+                        "question": "Emast veist nimetatakse",
+                        "answers": ["lehmaks", "pulliks", "vasikaks"]
+                    },
+                    {
+                        "question": "See on kitsas ja pikk. Vesi voolab.",
+                        "answers": ["jõgi", "meri", "järv"]
+                    },
+                    {
+                        "question": "Milline neist on pärit põllult?",
+                        "answers": ["porgand", "sai ", "kohuke"]
+                    },
+                    {
+                        "question": "Kes neist ei ela mullas?",
+                        "answers": ["liblikas", "kakand", "vihmauss"]
+                    },
+                    {
+                        "question": "Millistes tingimustes meeldib taimedel kasvada?",
+                        "answers": ["valges", "pimedas", "külmas"]
+                    },
+                    {
+                        "question": "Kes neist ei ole liblikas?",
+                        "answers": ["pääsuke", "pääsusaba", "päevapaabusilm"]
+                    },
+                    {
+                        "question": "Kes neist ei ole kala?",
+                        "answers": ["röövik", "haug", "ahven"]
+                    }
+                ]
+            }
+        }
+    ] 
+}

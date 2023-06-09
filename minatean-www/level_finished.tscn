@@ -1,0 +1,249 @@
+[gd_scene load_steps=16 format=3 uid="uid://dhy4oks86n0de"]
+
+[ext_resource type="Script" path="res://level_finished.gd" id="1_l3p1g"]
+[ext_resource type="FontFile" uid="uid://crprl3g8een26" path="res://ttf/Nunito-SemiBold.ttf" id="2_hrjd1"]
+[ext_resource type="Texture2D" uid="uid://c8fw40b0e5tgi" path="res://img/level_completed.png" id="4_8yq4e"]
+[ext_resource type="Texture2D" uid="uid://bnxhv55ai4clq" path="res://img/sound_buttons/sound_on.png" id="5_5yixp"]
+[ext_resource type="Texture2D" uid="uid://dmcremb1wcjnl" path="res://img/sound_buttons/sound_off.png" id="6_bdsxq"]
+[ext_resource type="AudioStream" uid="uid://cgieb6fcpxq25" path="res://sound/level_finished.mp3" id="6_udxiw"]
+[ext_resource type="Texture2D" uid="uid://g6ta31toil4y" path="res://img/sound_buttons/music_off.png" id="7_7wyoa"]
+[ext_resource type="Texture2D" uid="uid://bcocxu7ag6tds" path="res://img/sound_buttons/music_on.png" id="7_hhwc4"]
+[ext_resource type="Texture2D" uid="uid://ck75yr75f3g4m" path="res://img/exit.png" id="9_b2kqx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yoxel"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8wid8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_urxgt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gbsvj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jij1o"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bdbg3"]
+
+[node name="LevelFinished" type="Node2D"]
+script = ExtResource("1_l3p1g")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_top = 2.0
+offset_right = 3839.0
+offset_bottom = 2160.0
+color = Color(0.980392, 0.992157, 0.784314, 1)
+metadata/_edit_lock_ = true
+
+[node name="Label" type="Label" parent="ColorRect"]
+visible = false
+layout_mode = 0
+offset_left = 292.0
+offset_top = 259.0
+offset_right = 869.0
+offset_bottom = 345.0
+theme_override_colors/font_color = Color(1, 0.34902, 0, 1)
+theme_override_fonts/font = ExtResource("2_hrjd1")
+theme_override_font_sizes/font_size = 128
+text = "Õnnitlen, said läbi!!!"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2.01, 2)
+texture = ExtResource("4_8yq4e")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="Cups" type="Node2D" parent="."]
+position = Vector2(950, 1145)
+
+[node name="Math_cups" type="Node2D" parent="Cups"]
+
+[node name="Cup1" type="Sprite2D" parent="Cups/Math_cups"]
+centered = false
+
+[node name="Cup2" type="Sprite2D" parent="Cups/Math_cups"]
+position = Vector2(133, 0)
+centered = false
+
+[node name="Cup3" type="Sprite2D" parent="Cups/Math_cups"]
+position = Vector2(267, 0)
+centered = false
+
+[node name="Cup4" type="Sprite2D" parent="Cups/Math_cups"]
+position = Vector2(400, 0)
+centered = false
+
+[node name="Nature_cups" type="Node2D" parent="Cups"]
+position = Vector2(735, 0)
+
+[node name="Cup1" type="Sprite2D" parent="Cups/Nature_cups"]
+centered = false
+
+[node name="Cup2" type="Sprite2D" parent="Cups/Nature_cups"]
+position = Vector2(133, 0)
+centered = false
+
+[node name="Cup3" type="Sprite2D" parent="Cups/Nature_cups"]
+position = Vector2(267, 0)
+centered = false
+
+[node name="Cup4" type="Sprite2D" parent="Cups/Nature_cups"]
+position = Vector2(400, 0)
+centered = false
+
+[node name="Language_cups" type="Node2D" parent="Cups"]
+position = Vector2(1470, 0)
+
+[node name="Cup1" type="Sprite2D" parent="Cups/Language_cups"]
+centered = false
+
+[node name="Cup2" type="Sprite2D" parent="Cups/Language_cups"]
+position = Vector2(133, 0)
+centered = false
+
+[node name="Cup3" type="Sprite2D" parent="Cups/Language_cups"]
+position = Vector2(267, 0)
+centered = false
+
+[node name="Cup4" type="Sprite2D" parent="Cups/Language_cups"]
+position = Vector2(400, 0)
+centered = false
+
+[node name="ToNextLevel" type="Button" parent="."]
+visible = false
+offset_left = 1980.0
+offset_top = 1744.0
+offset_right = 2292.0
+offset_bottom = 2051.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_yoxel")
+
+[node name="RepeatLevel" type="Button" parent="."]
+offset_left = 1566.0
+offset_top = 1741.0
+offset_right = 1876.0
+offset_bottom = 2048.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_8wid8")
+
+[node name="Finished_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_udxiw")
+volume_db = 10.0
+
+[node name="Smileys" type="Node2D" parent="."]
+position = Vector2(950, 1380)
+
+[node name="Math_smiley" type="Sprite2D" parent="Smileys"]
+position = Vector2(263, 60)
+scale = Vector2(2.25, 2.25)
+
+[node name="Nature_smiley" type="Sprite2D" parent="Smileys"]
+position = Vector2(997, 60)
+scale = Vector2(2.25, 2.25)
+
+[node name="Language_smiley" type="Sprite2D" parent="Smileys"]
+position = Vector2(1733, 60)
+scale = Vector2(2.25, 2.25)
+
+[node name="Result_message" type="Node2D" parent="."]
+position = Vector2(2888, 464)
+
+[node name="Smiley" type="Sprite2D" parent="Result_message"]
+position = Vector2(-143, 111)
+scale = Vector2(3, 3)
+
+[node name="Message" type="Sprite2D" parent="Result_message"]
+position = Vector2(-676, 109)
+scale = Vector2(2, 2)
+
+[node name="Sound_on" type="Button" parent="."]
+top_level = true
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -254.0
+offset_top = -236.0
+offset_right = -146.0
+offset_bottom = -128.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.5, 1.5)
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_urxgt")
+icon = ExtResource("5_5yixp")
+
+[node name="Sound_off" type="Button" parent="."]
+top_level = true
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -254.0
+offset_top = -236.0
+offset_right = -146.0
+offset_bottom = -128.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.5, 1.5)
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gbsvj")
+icon = ExtResource("6_bdsxq")
+
+[node name="Music_on" type="Button" parent="."]
+top_level = true
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -416.0
+offset_top = -236.0
+offset_right = -308.0
+offset_bottom = -128.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.5, 1.5)
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jij1o")
+icon = ExtResource("7_hhwc4")
+
+[node name="Music_off" type="Button" parent="."]
+top_level = true
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -416.0
+offset_top = -236.0
+offset_right = -308.0
+offset_bottom = -128.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.5, 1.5)
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jij1o")
+icon = ExtResource("7_7wyoa")
+
+[node name="Main_menu" type="Sprite2D" parent="."]
+position = Vector2(3464, 256)
+texture = ExtResource("9_b2kqx")
+
+[node name="Main_menu" type="Button" parent="Main_menu"]
+top_level = true
+offset_left = 3275.0
+offset_top = 199.0
+offset_right = 3655.0
+offset_bottom = 313.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxEmpty_bdbg3")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="ToNextLevel" to="." method="_on_to_next_level_pressed"]
+[connection signal="pressed" from="RepeatLevel" to="." method="_on_repeat_level_pressed"]
+[connection signal="pressed" from="Sound_on" to="." method="_on_sound_on_pressed"]
+[connection signal="pressed" from="Sound_off" to="." method="_on_sound_off_pressed"]
+[connection signal="pressed" from="Music_on" to="." method="_on_music_on_pressed"]
+[connection signal="pressed" from="Music_off" to="." method="_on_music_off_pressed"]
+[connection signal="pressed" from="Main_menu/Main_menu" to="." method="_on_to_main_menu_pressed"]
